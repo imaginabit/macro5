@@ -1,6 +1,6 @@
 # macro5
 
-![macro5](https://imgur.com/6ufqhN6)
+![macro5](https://i.imgur.com/6ufqhN6.jpeg)
 
 Little macro keyboard with 5 keys and rp2040-zero
 
