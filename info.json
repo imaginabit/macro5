@@ -1,0 +1,32 @@
+{
+    "keyboard_name": "macro5",
+    "manufacturer": "Fernando",
+    "maintainer": "imaginabit",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0000",
+        "device_version": "1.0.0"
+    },
+    "processor": "RP2040",
+    "matrix_pins": {
+        "cols": ["D2", "D3", "D4", "D5", "D6"],
+        "rows": []
+    },
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "nkro": true,
+        "mousekey": true
+    },
+    "layouts": {
+        "LAYOUT_linear_5": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 0, "y": 1},
+                {"matrix": [0, 3], "x": 2, "y": 1},
+                {"matrix": [0, 4], "x": 3, "y": 1}
+            ]
+        }
+    }
+}
