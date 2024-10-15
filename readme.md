@@ -1,5 +1,23 @@
 # macro5
 
+## Reversed!
+
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "direct": ["GP10", "GP9", "GP11", "GP12", "GP13"],
+        "rows": ["GP3"]
+    },
+
+in this version its directs pins 
+
+    "matrix_pins": {
+        "direct": [
+            ["GP9", "GP10"], 
+            ["GP13", "GP12","GP11" ]
+        ]
+    },
+
+
 ![macro5](https://i.imgur.com/6ufqhN6.jpeg)
 
 Little macro keyboard with 5 keys and rp2040-zero
