@@ -8,7 +8,7 @@
 #define VIAL_UNLOCK_COMBO_COLS { 0, 1 }
 
 
-#define VIAL_ENCODER_DEFAULT { KC_VOLU, KC_VOLD } // Default actions
-#define VIAL_ENCODER_COUNT 1  // Set this to the number of encoders you have
+#define VIAL_ENCODER_DEFAULT { KC_VOLU, KC_VOLD } 
+#define VIAL_ENCODER_COUNT 1  
 
-#define ENCODERS_PAD { GP08, GP09 }
+// # ENCODERS_PAD { GP9, GP8 }

@@ -3,7 +3,12 @@
 
 #pragma once
 
+#define NUM_ENCODERS 1
 
 #define ENCODER_A_PINS { GP9 }
 #define ENCODER_B_PINS { GP8 }
+
+
+#define MATRIX_COLS 6
+#define MATRIX_ROWS 1 
 

@@ -1,3 +1,4 @@
 
 BOOTLOADER = rp2040
 MCU = RP2040
+MATRIX_TYPE = direct

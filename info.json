@@ -4,6 +4,15 @@
     "manufacturer": "imaginabit",
     "bootloader": "rp2040",
     "processor": "RP2040",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "matrix": {
+        "rows": 1,
+        "cols": 6
+    },
     "features": {
         "bootmagic": true,
         "command": false,
@@ -15,29 +24,27 @@
     },
     "matrix_pins": {
         "direct": [
-            ["GP14", "GP10", "GP13", "GP12", "GP11"]
+            [
+                "GP12", "GP13", "GP1",
+                "GP11", "GP10", "GP9" 
+            ]
         ]
     },
     "layouts": {
-        "LAYOUT_linear_5": {
+        "LAYOUT": {
             "layout": [
                 {"label": "1", "matrix": [0, 0], "x": 0, "y": 0},
                 {"label": "2", "matrix": [0, 1], "x": 1, "y": 0},
-                {"label": "3", "matrix": [0, 2], "x": 0, "y": 1},
-                {"label": "4", "matrix": [0, 3], "x": 1, "y": 1},
-                {"label": "5", "matrix": [0, 4], "x": 2, "y": 1}
+                {"label": "3", "matrix": [0, 2], "x": 2, "y": 0},
+                {"label": "4", "matrix": [0, 3], "x": 3, "y": 0}, 
+                {"label": "5", "matrix": [0, 4], "x": 4, "y": 0},
+                {"label": "6", "matrix": [0, 5], "x": 5, "y": 0} 
             ]
         }
-    },
-    "usb": {
-        "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
-    },
-    "encoder": {
-        "pin_a": "GP08",
-        "pin_b": "GP09",
-        "click_pin": "GP01",
+    },"encoder": {
+        "pin_a": "GP8",
+        "pin_b": "GP9",
+        "click": "GP1",
         "actions": {
             "clockwise": "KC_VOLU",
             "counterclockwise": "KC_VOLD"
